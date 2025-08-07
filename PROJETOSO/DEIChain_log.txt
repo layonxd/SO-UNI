@@ -1,0 +1,101 @@
+[2025-05-14 19:41:33] Configuração carregada: Miners=5, Pool=50, Tx/Bloco=10, Blocos=5000
+[2025-05-14 19:41:33] Controller: Config loaded
+[2025-05-14 19:41:36] Validator: Starting validator process
+[2025-05-14 19:41:36] Statistics: Process started
+[2025-05-14 19:41:36] Statistics: Process started with id 23717
+[2025-05-14 19:41:36] miner number 1
+[2025-05-14 19:41:36] miner number 2
+[2025-05-14 19:41:36] Configuração carregada: Miners=5, Pool=50, Tx/Bloco=10, Blocos=5000
+[2025-05-14 19:41:36] miner number 3
+[2025-05-14 19:41:36] miner number 4
+[2025-05-14 19:41:36] Miner 1: Only 0/10 transactions available - waiting
+[2025-05-14 19:41:36] Miner 2: Only 0/10 transactions available - waiting
+[2025-05-14 19:41:36] miner number 5
+[2025-05-14 19:41:36] Miner 3: Only 0/10 transactions available - waiting
+[2025-05-14 19:41:36] Miner 4: Only 0/10 transactions available - waiting
+[2025-05-14 19:41:36] Miner 5: Only 0/10 transactions available - waiting
+[2025-05-14 19:41:36] Configuração carregada: Miners=5, Pool=50, Tx/Bloco=10, Blocos=5000
+[2025-05-14 19:41:36] Attached to existing pool at 0x7f4f9eac0000 (capacity=50)
+[2025-05-14 19:41:43] Miner 2: Got full block of 10 transactions
+[2025-05-14 19:41:43] Miner 3: Got full block of 10 transactions
+[2025-05-14 19:41:44] Controller: Validator 2 launched (occupancy 0.70)
+[2025-05-14 19:41:44] Validator: Starting validator process
+[2025-05-14 19:41:44] Configuração carregada: Miners=5, Pool=50, Tx/Bloco=10, Blocos=5000
+[2025-05-14 19:41:45] Validator: Received block from miner 2 (PoW: 1267706)
+[2025-05-14 19:41:45] Miner 2: Sent block to validator
+[2025-05-14 19:41:45] Validator: Block VALID
+[2025-05-14 19:41:45] reward 20 from 10 transactions 
+[2025-05-14 19:41:45] ADDED TO CHAIN , NOW DELETING FROM POOL
+[2025-05-14 19:41:45] Removed 10/10 transactions (pool size now: 34)
+[2025-05-14 19:41:45] Statistics: Miner 2 earned 20 credits for valid block
+[2025-05-14 19:41:45] Validator: Received block from miner 3 (PoW: 1267706)
+[2025-05-14 19:41:45] Miner 3: Sent block to validator
+[2025-05-14 19:41:45] Validator: Block INVALID
+[2025-05-14 19:41:45] Statistics: Miner 3 submitted invalid block
+[2025-05-14 19:41:48] Controller: Validator 3 launched (occupancy 0.90)
+[2025-05-14 19:41:48] Validator: Starting validator process
+[2025-05-14 19:41:48] Configuração carregada: Miners=5, Pool=50, Tx/Bloco=10, Blocos=5000
+[2025-05-14 19:41:49] Miner 4: Got full block of 10 transactions
+[2025-05-14 19:41:49] Validator: Received block from miner 4 (PoW: 124905)
+[2025-05-14 19:41:49] Miner 4: Sent block to validator
+[2025-05-14 19:41:49] Validator: Block VALID
+[2025-05-14 19:41:49] reward 20 from 10 transactions 
+[2025-05-14 19:41:49] ADDED TO CHAIN , NOW DELETING FROM POOL
+[2025-05-14 19:41:49] Statistics: Miner 4 earned 20 credits for valid block
+[2025-05-14 19:41:49] Removed 10/10 transactions (pool size now: 40)
+[2025-05-14 19:41:50] Miner 1: Got full block of 10 transactions
+[2025-05-14 19:41:50] Miner 5: Got full block of 10 transactions
+[2025-05-14 19:41:51] Controller: Received SIGINT, initiating shutdown...
+[2025-05-14 19:41:52] Validator: Received block from miner 1 (PoW: 1387874)
+[2025-05-14 19:41:52] Miner 1: Sent block to validator
+[2025-05-14 19:41:52] Validator: Block VALID
+[2025-05-14 19:41:52] reward 20 from 10 transactions 
+[2025-05-14 19:41:52] ADDED TO CHAIN , NOW DELETING FROM POOL
+[2025-05-14 19:41:52] Statistics: Miner 1 earned 20 credits for valid block
+[2025-05-14 19:41:52] Removed 10/10 transactions (pool size now: 40)
+[2025-05-14 19:41:52] Miner 5: Sent block to validator
+[2025-05-14 19:41:52] Validator: Received block from miner 5 (PoW: 1387874)
+[2025-05-14 19:41:52] Validator: Block INVALID
+[2025-05-14 19:41:52] Statistics: Miner 5 submitted invalid block
+[2025-05-14 19:41:54] Miner 3: Got full block of 10 transactions
+[2025-05-14 19:41:54] Miner 3: Sent block to validator
+[2025-05-14 19:41:54] Validator: Received block from miner 3 (PoW: 629352)
+[2025-05-14 19:41:54] Validator: Block VALID
+[2025-05-14 19:41:54] reward 20 from 10 transactions 
+[2025-05-14 19:41:54] ADDED TO CHAIN , NOW DELETING FROM POOL
+[2025-05-14 19:41:54] Statistics: Miner 3 earned 20 credits for valid block
+[2025-05-14 19:41:54] Removed 10/10 transactions (pool size now: 30)
+[2025-05-14 19:41:56] Controller: Received SIGINT, initiating shutdown...
+[2025-05-14 19:41:56] Controller: Received SIGINT, initiating shutdown...
+[2025-05-14 19:41:56] 
+=== Blockchain Statistics ===
+
+[2025-05-14 19:41:56] Total blocks in blockchain: 5
+
+[2025-05-14 19:41:56] Pending transactions: 30
+
+[2025-05-14 19:41:56] Total blocks validated: 6
+
+[2025-05-14 19:41:56] 
+Miner Statistics:
+
+[2025-05-14 19:41:56] Miner ID   Valid Blocks    Invalid Blocks  Total Credits  
+
+[2025-05-14 19:41:56] 1          1               0               20             
+
+[2025-05-14 19:41:56] 2          1               0               20             
+
+[2025-05-14 19:41:56] 3          1               1               20             
+
+[2025-05-14 19:41:56] 4          1               0               20             
+
+[2025-05-14 19:41:56] 5          0               1               0              
+
+[2025-05-14 19:41:56] 
+Average verification time: 1.00 seconds
+
+[2025-05-14 19:41:56] Controller: Shutting down miners...
+[2025-05-14 19:41:56] Statistics: Process shutting down
+[2025-05-14 19:41:56] Controller: Shutting down validator...
+[2025-05-14 19:41:56] Controller: Shutting down statistics...
+[2025-05-14 19:41:56] Controller: Shutdown complete
